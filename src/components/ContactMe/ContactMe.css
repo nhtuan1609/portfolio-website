@@ -1,0 +1,55 @@
+#contact {
+  width: 100%;
+  background-color: #929292;
+}
+
+.contact-car {
+  padding: 50px;
+  background-color: white;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: transparent;
+}
+
+.contact-header {
+  font-size: 5rem;
+  font-weight: 500;
+  margin: 80px 0 20px 0;
+  text-align: center;
+}
+
+.contact-body {
+  background-color: rgb(255, 255, 255);
+  margin-bottom: 30px;
+}
+
+.contact-body-list {
+  display: flex;
+  padding: 40px 0px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.contact-body-item {
+  margin: 10px 10px;
+}
+
+.contact-body-item a {
+  text-decoration: none !important;
+}
+
+.contact-btn {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  min-width: 180px;
+  font-size: 2rem;
+}
+
+.contact-btn-icon {
+  margin-right: 8px;
+}

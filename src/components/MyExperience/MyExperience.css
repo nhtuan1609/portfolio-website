@@ -1,0 +1,61 @@
+#experience {
+  width: 100%;
+  background-color: #3685fc;
+}
+
+.experience-car {
+  padding: 50px;
+  background-color: white;
+}
+
+.experience-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: transparent;
+}
+
+.experience-header {
+  font-size: 5rem;
+  font-weight: 500;
+  margin: 80px 0 20px 0;
+  text-align: center;
+}
+
+.experience-body {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.experience-list {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background-image: linear-gradient(
+    -225deg,
+    #2cd8d5 0%,
+    #6b8dd6 48%,
+    #8e37d7 100%
+  );
+}
+
+.experience-item {
+  margin: 26px 12px;
+  border-radius: 4px;
+  background-color: white;
+}
+
+.experience-item-header {
+  text-align: center;
+  font-size: 2.8rem;
+  background-color: rgb(189, 189, 189);
+  padding: 10px 0;
+}
+
+.experience-item-body {
+  text-align: left;
+  font-size: 1.8rem;
+  padding: 10px 14px;
+}

@@ -1,25 +1,49 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
 
-function App() {
+import MyNavbar from "./components/MyNavbar/MyNavbar";
+import Particles from "react-particles-js";
+import MyMessage from "./components/MyMessage/MyMessage";
+import SlideBackground from "./components/SlideBackground/SlideBackground";
+import AboutMe from "./components/AboutMe/AboutMe";
+import MySkills from "./components/MySkills/MySkills";
+import MyExperience from "./components/MyExperience/MyExperience";
+import MyProjects from "./components/MyProjects/MyProjects";
+import ContactMe from "./components/ContactMe/ContactMe";
+import MyFooter from "./components/MyFooter/MyFooter";
+
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Particles
+        className="particles App-Particles"
+        params={{
+          particles: {
+            number: {
+              value: 100,
+            },
+            size: {
+              value: 3,
+            },
+          },
+          interactivity: {
+            events: {
+              onhover: {
+                enable: true,
+                mode: "repulse",
+              },
+            },
+          },
+        }}
+      />
+      <MyNavbar />
+      <MyMessage />
+      <SlideBackground />
+      <AboutMe />
+      <MySkills />
+      <MyExperience />
+      <MyProjects />
+      <ContactMe />
+      <MyFooter />
     </div>
   );
 }
-
-export default App;
