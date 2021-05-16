@@ -3,7 +3,7 @@ import React from "react";
 import { Container, Row, Col } from "reactstrap";
 import { Button } from "react-bootstrap";
 import { FaPhone, FaFacebookSquare } from "react-icons/fa/";
-import { AiOutlineMail, AiOutlineCodeSandbox } from "react-icons/ai/";
+import { AiOutlineMail, AiOutlineGithub } from "react-icons/ai/";
 
 export default function ContactMe() {
   return (
@@ -48,23 +48,6 @@ export default function ContactMe() {
             </div>
             <div className="contact-body-item">
               <a
-                href="https://codesandbox.io/dashboard/all/?workspace=fcc65812-d7e4-4638-b95f-332cebd9652c"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Button
-                  className="contact-btn"
-                  size="lg"
-                  variant="outline-dark"
-                  title="My other projects"
-                >
-                  <AiOutlineCodeSandbox className="contact-btn-icon" /> Code
-                  Sandbox
-                </Button>
-              </a>
-            </div>
-            <div className="contact-body-item">
-              <a
                 href="https://www.facebook.com/profile.php?id=100009292009630"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -76,6 +59,22 @@ export default function ContactMe() {
                   title="Say hello on Facebook"
                 >
                   <FaFacebookSquare className="contact-btn-icon" /> Facebook
+                </Button>
+              </a>
+            </div>
+            <div className="contact-body-item">
+              <a
+                href="https://github.com/nhtuan1609"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button
+                  className="contact-btn"
+                  size="lg"
+                  variant="outline-dark"
+                  title="My other projects"
+                >
+                  <AiOutlineGithub className="contact-btn-icon" /> GitHub
                 </Button>
               </a>
             </div>
