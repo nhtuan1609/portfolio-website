@@ -15,24 +15,24 @@ export default function MyExperience() {
           <Tilt options={{ max: 10, scale: 1.05 }}>
               <div className="experience-item">
                 <div className="experience-item-header">
-                  Front-End Web Development Coruse
+                  Front-End Web Development Course
                 </div>
                 <div className="experience-item-body">
                   <h1>Status: Completed</h1>
-                  <strong>Teachnology:</strong> HTML, CSS, Javascript and
+                  <strong>Teachnology:</strong> HTML, CSS, JavaScript and
                   React.js.
                   <br />
                   <strong>Duration:</strong> October 2020 - April 2021.
                   <br />
                   <strong>Description:</strong>
                   <br />
-                  - HTML, CSS and JavaScript.
+                  - Build a front-end website and responsive web design using HTML and CSS.
                   <br />
-                  - Responsive web design.
+                  - Implement a functional front-end website using React.
                   <br />
-                  - Component design with React.js and Material-UI.
+                  - Consume API RESTful in React.
                   <br />
-                  - API with React and Redux.
+                  - Design the architecture for the website using React and Redux.
                 </div>
               </div>
             </Tilt>

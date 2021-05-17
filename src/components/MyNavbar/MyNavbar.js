@@ -26,7 +26,7 @@ const MyNavbar = (props) => {
 
       <Navbar color="" light expand="md">
         <NavbarBrand className="nav-brand" href="#">
-          CodeSandbox
+          Intro Page
         </NavbarBrand>
         <NavbarToggler className="nav-toggle" onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>

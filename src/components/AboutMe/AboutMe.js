@@ -19,7 +19,7 @@ export default function AboutMe() {
             <div className="about-infor-text">
               Hi there! I am <strong>&nbsp;Nguyen Hoang Tuan</strong>.
               <br />I was born and brought up in Can Tho city. I am a Frontend
-              Web Developer with HTML, CCS, Javascript and React.js as my tech
+              Web Developer with HTML, CSS, Javascript and React.js as my tech
               stack.
               <br />
               In 2020, I successfully completed my Engineering with
