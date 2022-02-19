@@ -7,7 +7,7 @@ import {
   NavbarBrand,
   Nav,
   NavItem,
-  NavLink
+  NavLink,
 } from "reactstrap";
 
 const MyNavbar = (props) => {
@@ -26,7 +26,7 @@ const MyNavbar = (props) => {
 
       <Navbar color="" light expand="md">
         <NavbarBrand className="nav-brand" href="#">
-          Intro Page
+          Portfolio
         </NavbarBrand>
         <NavbarToggler className="nav-toggle" onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>

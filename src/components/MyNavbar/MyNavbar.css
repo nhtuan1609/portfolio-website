@@ -17,11 +17,14 @@
 .nav-brand {
   color: #bbb !important;
   font-size: 2.6rem;
+  font-weight: bold;
 }
 
 .nav-link {
   color: #bbb !important;
   font-size: 1.8rem;
+  font-weight: bold;
+  margin: 0 8px;
 }
 
 .nav-link:hover {

@@ -23,7 +23,7 @@ export default function ContactMe() {
                 <Button
                   className="contact-btn"
                   size="lg"
-                  variant="outline-info"
+                  variant="info"
                   title="Call to +84 79 775 0056"
                 >
                   <FaPhone className="contact-btn-icon" /> Call Me
@@ -39,7 +39,7 @@ export default function ContactMe() {
                 <Button
                   className="contact-btn"
                   size="lg"
-                  variant="outline-danger"
+                  variant="danger"
                   title="nhtuan1609@gmail.com"
                 >
                   <AiOutlineMail className="contact-btn-icon" /> Email Me
@@ -55,7 +55,7 @@ export default function ContactMe() {
                 <Button
                   className="contact-btn"
                   size="lg"
-                  variant="outline-primary"
+                  variant="primary"
                   title="Say hello on Facebook"
                 >
                   <FaFacebookSquare className="contact-btn-icon" /> Facebook
@@ -71,7 +71,7 @@ export default function ContactMe() {
                 <Button
                   className="contact-btn"
                   size="lg"
-                  variant="outline-dark"
+                  variant="dark"
                   title="My other projects"
                 >
                   <AiOutlineGithub className="contact-btn-icon" /> GitHub

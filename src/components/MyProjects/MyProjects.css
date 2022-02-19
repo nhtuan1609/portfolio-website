@@ -1,11 +1,12 @@
 #projects {
   width: 100%;
-  background-color: #abecec;
+  background-color: #525474;
+  padding: 80px 0;
 }
 
 .projects-car {
   padding: 50px;
-  background-color: white;
+  background-color: #eee;
 }
 
 .projects-container {
@@ -19,7 +20,9 @@
 .projects-header {
   font-size: 5rem;
   font-weight: 500;
-  margin: 80px 0 20px 0;
+  font-weight: bold;
+  color: #dfdeef;
+  margin-bottom: 20px;
   text-align: center;
 }
 
@@ -31,27 +34,32 @@
 }
 
 .projects-list {
-  margin-top: 15px;
-  margin-bottom: 15px;
-  background-image: linear-gradient(
-    -225deg,
-    #62e7ff 0%,
-    #349fc9 48%,
-    #09516d 100%
-  );
+  margin-top: 16px;
+  margin-bottom: 16px;
+  background-color: rgba(233, 233, 233, 0.3);
+  border-radius: 4px;
 }
 
 .projects-item {
   font-size: 100% !important;
 }
 
+.projects-item .timeline.container.alt-evts::after {
+  background-color: #340631 !important;
+}
+
 .projects-item .date {
   font-size: 1.6rem !important;
+  background-color: #340631 !important;
 }
 
 .projects-item .markdown {
-  font-size: 1.8rem !important;
-  font-weight: 500;
+  font-size: 2.2rem !important;
+  font-weight: bold;
+}
+
+.projects-item .marker-col.alt-evts .marker {
+  border: 4px solid #340631 !important;
 }
 
 .projects-item-container .card {
@@ -59,12 +67,19 @@
   border-radius: none !important;
 }
 
+.projects-item .card.alt-evts > img {
+  border: 2px solid #525474;
+}
+
 .item-togle-btn {
   font-size: 1.4rem;
-  color: white;
-  background-color: #0a8882;
-  margin: 0;
+  color: #eee;
+  font-weight: bold;
+  margin: 12px 0;
   border: none;
+  padding: 8px 16px !important;
+  background-color: #3f2d4d !important;
+  border-radius: 4px !important;
 }
 
 .item-togle-btn:hover {
@@ -101,6 +116,10 @@
 }
 
 .projects-item-footer .url-button {
+  display: block !important;
+  color: #eee;
+  font-weight: bold;
   margin: 10px 0 0 0 !important;
-  background-color: #0a8882 !important;
+  padding: 8px 16px !important;
+  background-color: #3f2d4d !important;
 }
