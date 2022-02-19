@@ -3,7 +3,7 @@ import React from "react";
 import { Container, Row, Col } from "reactstrap";
 import { Button } from "react-bootstrap";
 import { FaPhone, FaFacebookSquare } from "react-icons/fa/";
-import { AiOutlineMail, AiOutlineGithub } from "react-icons/ai/";
+import { AiOutlineMail, AiOutlineGithub, AiFillFire } from "react-icons/ai/";
 
 export default function ContactMe() {
   return (
@@ -71,10 +71,26 @@ export default function ContactMe() {
                 <Button
                   className="contact-btn"
                   size="lg"
-                  variant="dark"
-                  title="My other projects"
+                  variant="secondary"
+                  title="My projects"
                 >
                   <AiOutlineGithub className="contact-btn-icon" /> GitHub
+                </Button>
+              </a>
+            </div>
+            <div className="contact-body-item">
+              <a
+                href="https://www.freecodecamp.org/nhtuan1609"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button
+                  className="contact-btn"
+                  size="lg"
+                  variant="dark"
+                  title="My certifications"
+                >
+                  <AiFillFire className="contact-btn-icon" /> freeCodeCamp
                 </Button>
               </a>
             </div>
