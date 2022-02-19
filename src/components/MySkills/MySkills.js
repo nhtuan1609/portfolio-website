@@ -14,44 +14,15 @@ export default function MySkill() {
         </Row>
         <Row className="skills-body">
           <Col xl="6" md="6" xs="12">
-            <Card className="skills-group">
-              <CardBody>
-                <CardTitle className="skills-group-header" tag="h5">
-                  Frontend
-                </CardTitle>
-                <CardText className="skills-group-body">
-                  {skills.frontend.map((skill, index) => (
-                    <span className="skills-item" key={index}>
-                      <a
-                        className="skills-item-link"
-                        href={skill.link}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <CardImg
-                          src={skill.imgSrc}
-                          alt={skill.imgAltText}
-                          rounded
-                          className="skills-item-img"
-                        ></CardImg>{" "}
-                        {skill.skillName}
-                      </a>
-                    </span>
-                  ))}
-                </CardText>
-              </CardBody>
-            </Card>
-          </Col>
-          <Col xl="6" md="6" xs="12">
             <Row>
               <Col>
                 <Card className="skills-group">
                   <CardBody>
                     <CardTitle className="skills-group-header" tag="h5">
-                      Programming Languages
+                      Frontend
                     </CardTitle>
                     <CardText className="skills-group-body">
-                      {skills.programmingLanguages.map((skill, index) => (
+                      {skills.frontend.map((skill, index) => (
                         <span className="skills-item" key={index}>
                           <a
                             className="skills-item-link"
@@ -79,10 +50,43 @@ export default function MySkill() {
                 <Card className="skills-group">
                   <CardBody>
                     <CardTitle className="skills-group-header" tag="h5">
-                      Hosting Platforms
+                      Backend
                     </CardTitle>
                     <CardText className="skills-group-body">
-                      {skills.hostingPlatforms.map((skill, index) => (
+                      {skills.backend.map((skill, index) => (
+                        <span className="skills-item" key={index}>
+                          <a
+                            className="skills-item-link"
+                            href={skill.link}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            <CardImg
+                              src={skill.imgSrc}
+                              alt={skill.imgAltText}
+                              rounded
+                              className="skills-item-img"
+                            ></CardImg>{" "}
+                            {skill.skillName}
+                          </a>
+                        </span>
+                      ))}
+                    </CardText>
+                  </CardBody>
+                </Card>
+              </Col>
+            </Row>
+          </Col>
+          <Col xl="6" md="6" xs="12">
+            <Row>
+              <Col>
+                <Card className="skills-group">
+                  <CardBody>
+                    <CardTitle className="skills-group-header" tag="h5">
+                      Programming Languages
+                    </CardTitle>
+                    <CardText className="skills-group-body">
+                      {skills.programmingLanguages.map((skill, index) => (
                         <span className="skills-item" key={index}>
                           <a
                             className="skills-item-link"
