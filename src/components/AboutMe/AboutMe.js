@@ -17,20 +17,21 @@ export default function AboutMe() {
           </Col>
           <Col className="about-infor" xl="6" md="6" xs="12">
             <div className="about-infor-text">
-              Hi there! I am <strong>&nbsp;Nguyen Hoang Tuan</strong>.
-              <br />I was born and brought up in Can Tho city. I am a Frontend
-              Web Developer with HTML, CSS, Javascript and React.js as my tech
-              stack.
+              Hi there! <strong>Nguyen Hoang Tuan</strong> is my full name. I
+              was born and brought up in Can Tho city. And now I work as an
+              Application Developer.
               <br />
-              In 2020, I successfully completed my Engineering with
-              specialization in Control and Automation Engineer.
+              <br />I completed my honor engineering degree with a focus in
+              Control and Automation Engineer at the end of 2020. I got the
+              first job while I was a senior in the university, and I have more
+              than a year experience to develop the application using MFC and
+              C++. After that, I worked for outsourcing company to develop the
+              ERP web application using VueJs and Google Firestore for 6 months.
               <br />
-              Working with the clients, my goal is always driven towards
-              providing amazing experience with the best level of quality and
-              service to them.
-              <br />I love learning about new technologies, what problems are
-              they solving and how can I use them to build better and scalable
-              products.
+              <br />I love learning about new technologies, facing problems and
+              solving them, and how I can use them to create better and scalable
+              products. I am looking for an environment where I can show all my
+              technical skills.
             </div>
           </Col>
         </Row>

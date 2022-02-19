@@ -16,10 +16,14 @@ export default function MyMessage() {
         <div className="message-sub">
           <Typewriter
             options={{
-              strings: ["Web Developer", "Coach", "Learner"],
+              strings: [
+                "My portfolio will show you",
+                "all of that I've learned and accomplished",
+                "as a Application Developer",
+              ],
               autoStart: true,
               loop: true,
-              delay: 50
+              delay: 50,
             }}
           />
         </div>
